@@ -1,0 +1,22 @@
+main .kursusrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main .kursusrow a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+main .kursusrow a:hover {
+    background-color: rgb(108, 108, 243);
+}
